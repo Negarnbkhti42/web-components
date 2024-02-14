@@ -1,11 +1,11 @@
 import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";
 
-import "./modal";
+import "./switch";
 
 @customElement("app-root")
 export class AppRoot extends LitElement {
   render() {
-    return html`<tap-modal></tap-modal>`;
+    return html` <tap-switch></tap-switch> `;
   }
 }
