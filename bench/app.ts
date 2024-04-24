@@ -52,13 +52,10 @@ export class TapApp extends LitElement {
 
       <tap-banner
         heading="سه شنبه های طلایی از ارسال رایگان لذت ببرید!"
-        description="کد تخفیف ۳۰هزار تومانی: TAPSI-20 "
-        image="https://s3-alpha-sig.figma.com/img/e03a/b170/dcd9666b879bbdb6598653f5ea557ade?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NCys36vOQ-X22ieqUxtagnpV0OUkkf-ebqFg0LkYmEdspKBmmdKpNrYMaNTkk-euzyJMStun~Ylzp3WyEDLYnDrlclKpAa1NjUzxTLFr1aib35E4i7ocr9GiiVDvz04pimbJCyvnooXoXNkq6WU-bgM2JL0h3hyC~vmRVgMYZ2zPq2pbT6EwoJK~UFa~05k-ArhXNcpDZCk24rJZOY3CB8CBLA4DHyYLu9j-WfTZuV5ZMQcv2Bb6nEOWBSsmwrkOVYW66xLjesDeKea~8yktJcYP5RYq~9Oa0dyYFteXBCmPOK7qwpj63WfBTicFLJnjOJ5C5gWZpieSOChVZlrm4A__"
-        background-color="rgba(230, 242, 237, 1)"
+        image="https://s3-alpha-sig.figma.com/img/a8be/51a4/4ee7970dcab4443ebb26f852d44409ba?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Iw4O7lRq6BlmBd6dTWPmqsF1XdSSOtkrmrwK-bEudqDsSgocNpi4~oCe3np~PugcQQdmYG7rOwuUFSIDu3GL9wlncqS5AVTDPjk~GysciLxnNyXt3m3fE5hS6Hj7qjpOZ9YERdRs4wnudkr4nyCsNeXChydNVZM6hVBL0xuO4gGfxhCkv0MpWLHXjIXE11SpCKbEKKomRak4sP1Ci37hGR6tId-mT1atmxDcmCVL7L5uDxDDnv78s-t2MBBoYpo82Tpd-r~q-yta81-E2B7SsWZtKlaJAMqHBiraAbZacyhSecvId~uWJdf1kI3GLXBa7MhIKpRCNZD9pQHXpttWGQ__"
+        background-color="rgba(255, 227, 172, 1)"
       >
-      <tap-button size="small">
-      دریافت تخفیف
-      </tap-button>
+        <tap-button size="small"> دریافت تخفیف </tap-button>
       </tap-banner>
 
       <tap-bottom-navigation>

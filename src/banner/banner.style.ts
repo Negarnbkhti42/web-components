@@ -23,7 +23,7 @@ export default css`
 
     background-image: var(--tap-banner-background-image);
     background-position: left bottom;
-    background-size: 30% auto;
+    background-size: 35% auto;
     background-repeat: no-repeat;
 
     margin: var(--tap-sys-spacing-4, --tap-sys-spacing-6);
