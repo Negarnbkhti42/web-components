@@ -44,16 +44,22 @@ export class TapApp extends LitElement {
           <img src="https://static.tapsi.cab/passenger/eco-peyk.png" />
           <span>پیک اقتصادی</span>
         </div>
-        <div style="grid-area: 2 / 5 / 3 / 7;">
-          <tap-badge-wrapper>
-            <tap-badge slot="badge" value="تخفیف" variant="info"></tap-badge>
-            <div class="service small">
-              <img src="https://static.tapsi.cab/passenger/school.png" />
-              <span>سرویس مدرسه</span>
-            </div>
-          </tap-badge-wrapper>
+        <div class="service small" style="grid-area: 2 / 5 / 3 / 7;">
+          <img src="https://static.tapsi.cab/passenger/school.png" />
+          <span>سرویس مدرسه</span>
         </div>
       </div>
+
+      <tap-banner
+        heading="سه شنبه های طلایی از ارسال رایگان لذت ببرید!"
+        description="کد تخفیف ۳۰هزار تومانی: TAPSI-20 "
+        image="https://s3-alpha-sig.figma.com/img/e03a/b170/dcd9666b879bbdb6598653f5ea557ade?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NCys36vOQ-X22ieqUxtagnpV0OUkkf-ebqFg0LkYmEdspKBmmdKpNrYMaNTkk-euzyJMStun~Ylzp3WyEDLYnDrlclKpAa1NjUzxTLFr1aib35E4i7ocr9GiiVDvz04pimbJCyvnooXoXNkq6WU-bgM2JL0h3hyC~vmRVgMYZ2zPq2pbT6EwoJK~UFa~05k-ArhXNcpDZCk24rJZOY3CB8CBLA4DHyYLu9j-WfTZuV5ZMQcv2Bb6nEOWBSsmwrkOVYW66xLjesDeKea~8yktJcYP5RYq~9Oa0dyYFteXBCmPOK7qwpj63WfBTicFLJnjOJ5C5gWZpieSOChVZlrm4A__"
+        background-color="rgba(230, 242, 237, 1)"
+      >
+      <tap-button size="small">
+      دریافت تخفیف
+      </tap-button>
+      </tap-banner>
 
       <tap-bottom-navigation>
         <tap-bottom-navigation-item>

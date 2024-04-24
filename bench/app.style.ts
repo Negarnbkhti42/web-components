@@ -19,6 +19,7 @@ export default css`
     grid-area: 1 / 4 / 2 / 7;
     display: flex;
     flex-direction: column;
+    height: fit-content;
   }
 
   .service img {
