@@ -16,5 +16,5 @@
     "declaration": true,
     "incremental": true
   },
-  "include": ["src"]
+  "include": ["src", "bench"]
 }
