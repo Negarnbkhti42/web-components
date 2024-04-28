@@ -7,7 +7,9 @@ export class FloatingActionButton extends LitElement {
 
     render() {
         return html`
-        <div class="fab"></div>
+        <div class="fab">
+            <span class="fab__title">${this.title}</span>
+        </div>
         `
     }
 }
