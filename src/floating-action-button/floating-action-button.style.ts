@@ -11,7 +11,7 @@ export default css`
         border: var(--tap-sys-stroke-1) solid var(--tap-sys-color-border-primary);
         border-radius: var(--tap-sys-radius-full);
         box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
-        padding: var(--tap-sys-spacing-3) var(--tap-sys-spacing-4);
+        padding: var(--tap-sys-spacing-4);
         display: inline-flex;
         align-items: center;
     }
@@ -20,6 +20,7 @@ export default css`
         font-size: var(--tap-sys-typography-body-sm-size);
         line-height: var(--tap-sys-typography-body-sm-height);
         font-weight: var(--tap-sys-typography-body-sm-weight);
+        padding: var(--tap-sys-spacing-0) var(--tap-sys-spacing-4);
     }
 
 `;
