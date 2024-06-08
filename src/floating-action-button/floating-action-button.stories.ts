@@ -2,7 +2,7 @@ import { html, TemplateResult } from "lit";
 import "./index.js";
 
 export default {
-    title: 'Floating Action Button',
+    title: 'Components/Floating Action Button',
     component: 'tap-floating-action-button',
     args: {
         title: 'عنوان'
