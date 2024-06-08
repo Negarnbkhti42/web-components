@@ -3,7 +3,7 @@ import { css } from "lit";
 export default css`
 
     :host {
-        font-family: var(--tap-fab-font-family, var(--tap-sys-font-family));
+        font-family: var(--tap-font-family, var(--tap-sys-font-family));
     }
 
     .fab {
