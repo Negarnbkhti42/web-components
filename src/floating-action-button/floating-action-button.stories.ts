@@ -1,6 +1,7 @@
 import { html, TemplateResult } from "lit";
 import "./index.js";
 import '../icons/index.js';
+import '../button/index.js';
 
 export default {
     title: 'Components/Floating Action Button',
@@ -25,10 +26,13 @@ const Template: Story<ArgTypes> = ({ title }: ArgTypes) => html`
 <tap-floating-action-button title=${title}></tap-floating-action-button>
 `
 
-const LeadingTemplate: Story<ArgTypes> = ({ title }: ArgTypes) => html`
-<tap-floating-action-button title=${title}><tap-icon-default slot="leading" width="24" height="24"></tap-icon-default></tap-floating-action-button>
+const LeadingAndTrailingTemplate: Story<ArgTypes> = ({ title }: ArgTypes) => html`
+<tap-floating-action-button title=${title}>
+    <tap-icon-default slot="leading" width="24" height="24"></tap-icon-default>
+    <tap-button slot="trailing" variant="ghost" size="small">Click Me</tap-button>
+</tap-floating-action-button>
 `
 
 export const FloatingActionButton = Template.bind({});
 
-export const WithLeading = LeadingTemplate.bind({});
+export const WithLeadingAndTrailing = LeadingAndTrailingTemplate.bind({});
