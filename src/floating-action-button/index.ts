@@ -12,7 +12,7 @@ import styles from "./floating-action-button.style";
  * <tap-floating-aciton-button></tap-floating-action-button>
  * ```
  *
- * ##### With Label and Placeholder
+ * ##### With title and leading
  *
  * ```html
  * <tap-floating-action-button title="enter a title"><tap-icon-default slot="leading" width="24" height="24"></tap-icon-default></tap-floating-action-button>

@@ -6,7 +6,7 @@ export default {
     title: 'Components/Floating Action Button',
     component: 'tap-floating-action-button',
     args: {
-        title: 'عنوان دکمه'
+        title: 'enter a title'
     }
 };
 
